@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+	background: #111;
+	display: grid;
+	place-items: center;
+}
+
+canvas {
+	border-radius: 15px;
+}
