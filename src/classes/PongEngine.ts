@@ -7,8 +7,6 @@ export default class PongEngine extends BaseEngine {
 
 	private _gameScale!: number
 
-	public debugMode: boolean = false
-
 	constructor() {
 		super()
 		this.gameManager = new GameManager(this)
